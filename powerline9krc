@@ -1,0 +1,20 @@
+# POWERLINE9K config
+  POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
+  POWERLEVEL9K_MODE='nerdfont-complete'
+  POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+  POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+#  POWERLEVEL9K_COLOR_SCHEME='light'
+#  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(icons_test)
+
+# vcs Settings 
+  POWERLEVEL9K_SHOW_CHANGESET=true
+# DataTime settings
+  POWERLEVEL9K_TIME_FORMAT="%D{%H:%M:%S}"
+# Prompt elements settings
+  POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir nvm anaconda rbenv vcs)
+  POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status ssh background_jobs public_ip battery time)
+# Use theme 
+#  ZSH_THEME="powerlevel9k/powerlevel9k"
+#export Term default color
+  export TERM="xterm-256color"
+
