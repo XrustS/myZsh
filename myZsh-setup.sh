@@ -15,12 +15,13 @@
 	if [ -e /etc/redhat-release ]
 	then 
 	  sudo yum install zsh || echo "Install ---> zsh \nWhat's going wrong!" && exit 1
-	  chsh -s $(which zsh) 
+	  chsh -s $(which zsh)
+	fi
  fi
 #
 # download antigen
 echo ">>>>> Install Antigen"
- git clone https://github.com/XrustS/myZsh.git ~/.myZsh
+ [ -d ~/.myZsh ] || git clone https://github.com/XrustS/myZsh.git ~/.myZsh
  curl -L git.io/antigen > ~/antigen.zsh
 # download custom configure files
 echo ">>>>> Copy cfg files"
