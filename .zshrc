@@ -1,6 +1,5 @@
 # Get load powerline9k settings
-# source ~/.powerline9krc
- POWERLEVEL9K_INSTALLATION_PATH=$ANTIGEN_BUNDLES/bhilburn/powerlevel9k
+ source ~/.powerline9krc
 # Uncomment the following line to enable command auto-correction.
  ENABLE_CORRECTION="true"
 
